@@ -1,0 +1,52 @@
+https://colab.research.google.com/?utm_source=scs-index(코랩)
+→ jupyter notebook과 거의 비슷한 환경을 제공하는 것(GPU와 같은 기능을 사용할 수있음)(단 runtime이 24시간 제한)(구글에서 만듦 / pytorch와 같은 건 알아서 install해야함)
+
+https://www.coursera.org/
+→ 코새라 : 데이터 등 인증프로그램 확인가능 & 강의 제공 
+
+https://phil-baek.tistory.com/entry/%ED%85%90%EC%84%9C%ED%94%8C%EB%A1%9C%EC%9A%B0-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%9E%90%EA%B2%A9%EC%A6%9D-%EA%B7%B8%EA%B1%B0-1%EC%A3%BC%EC%9D%BC%EC%9D%B4%EB%A9%B4-%EC%B7%A8%EB%93%9D-%EA%B0%80%EB%8A%A5%ED%95%B4-TensorFlow-Developer-Certificate
+→ 텐서플로우 자격증 취득(오픈북)(메리트가 있지는 않음)(가격 10만원)
+
+
+conda activate pytorch
+cd C:\Users\11\Desktop\pytorch
+jupyter notebook
+
+MNIST classification(CSV) 파일
+
+설치 전 가상환경에 들어가서 설치 진행해야합니다.(conda activate pytorch)
+pip install opencv-python(import cv2→ opencv-python을 의미)
+pip install torchinfo
+
++ 파이썬 GUI 툴 : tkinter →사진으로 찍은 글들을 자동으로 텍스트로 변환해주고 / 원하는 언어로 변역해주는 프로
+
+사용해보지 않았던 .csv파일을 상둉하기 위해 작성, pretrained된 모델을 불러오는 방법 알기 위한 코딩 학습
+
+csv파일 : 이미지로 되어있는 파일을 라벨링 해서 정리해놓은 엑셀 파일
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+conda deactivate
+다른 가상환경 사용하기
+(base) → 기본 가상환경 상태
+            이 상태에서 가상환경이 실행되도록 확인
+
+conda activate keras1(나는keras...가 실행안되서)
+
+파이썬 데이터 크롤링 라이브러리
+: icrawler / beautiful soup
+conda install scikit-learn
+
+conda create -n keras python=3.6
+conda activate keras
+
+conda install jupyter
+conda install scikit-learn=0.19.1
+pip install icrawler
+pip install tensorflow
+
+
+conda env list
+conda remove -n keras --all
+conda remove -n keras1 --all
+conda remove -n keras2 --all
+(가상환경이 남아있을 수 있으니까 폴더 안에 들어가서 keras든 다 지우기)
